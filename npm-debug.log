@@ -10,7 +10,7 @@
 6 silly lifecycle mmall_admin_fe@1.0.0~predist: no script for predist, continuing
 7 info lifecycle mmall_admin_fe@1.0.0~dist: mmall_admin_fe@1.0.0
 8 verbose lifecycle mmall_admin_fe@1.0.0~dist: unsafe-perm in lifecycle true
-9 verbose lifecycle mmall_admin_fe@1.0.0~dist: PATH: /usr/local/node-v6.12.3-linux-x64/lib/node_modules/npm/bin/node-gyp-bin:/developer/git-repository/admin-fe/node_modules/.bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/java/jdk1.7.0_80/bin:/usr/local/git/bin:/developer/apache-tomcat-7.0.73/bin:/developer/apache-maven-3.0.5/bin:/usr/local/node-v6.12.3-linux-x64/bin:/usr/local/bin:/usr/local/ruby/bin:/usr/logan/bin
+9 verbose lifecycle mmall_admin_fe@1.0.0~dist: PATH: /usr/local/node-v6.12.3-linux-x64/lib/node_modules/npm/bin/node-gyp-bin:/developer/git-repository/admin-fe/node_modules/.bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/java/jdk1.7.0_80/bin:/usr/local/git/bin:/developer/apache-tomcat-7.0.73/bin:/developer/apache-maven-3.0.5/bin:/usr/local/node-v6.12.3-linux-x64/bin:/usr/local/bin:/usr/local/ruby/bin:/usr/logan/bin:/usr/logan/bin
 10 verbose lifecycle mmall_admin_fe@1.0.0~dist: CWD: /developer/git-repository/admin-fe
 11 silly lifecycle mmall_admin_fe@1.0.0~dist: Args: [ '-c', 'WEBPACK_ENV=online ./node_modules/.bin/webpack -p' ]
 12 silly lifecycle mmall_admin_fe@1.0.0~dist: Returned: code: 2  signal: null

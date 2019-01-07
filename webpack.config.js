@@ -1,7 +1,6 @@
 /*
-* @Author: Rosen
-* @Date:   2016-11-20 13:19:28
-* @Last Modified by:   Rosen
+* @Author: logan
+* @Last Modified by:   logan
 * @Last Modified time: 2018-12-04 16:57:45
 * 知识点：css单独打包、全局jquery引用、各种loader
 */
@@ -26,7 +25,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.happymmall.com/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.luckymmall.com/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -100,11 +99,11 @@ var config = {
         port: 8086,
         proxy : {
             '/manage' : {
-                target: 'http://admintest.happymmall.com',
+                target: 'http://admintest.luckymmall.com',
                 changeOrigin : true
             },
             '/user/logout.do' : {
-                target: 'http://admintest.happymmall.com',
+                target: 'http://admintest.luckymmall.com',
                 changeOrigin : true
             }
         }
